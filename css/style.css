@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+
+h5,p{
+  color:#f8eeeec9;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.line-1,
+.line-2,
+.line-3 {
+  width: 10vh;
+  height: 0.5em;
+  background: #6ad6ff;
+}
+.line-2 {
+  margin: 0.6em 0;
+}
+.rotate-bars .line-1 {
+  transform: rotate(-45deg) translate(-11px, 14px);
+}
+.rotate-bars .line-2 {
+  transform: translateX(30px);
+  opacity: 0;
+  transition: 0.5s;
+}
+.rotate-bars .line-3 {
+  transform: rotate(45deg) translate(-12px, -12px);
+}
+
+
+.rotate-bar .line-1 {
+  transform: rotate(-405deg) translate(-11px, 14px);
+}
+.rotate-bar .line-2 {
+  opacity: 0;
+}
+.rotate-bar .line-3 {
+  transform: rotate(405deg) translate(-12px, -12px);
+}
+
+
+.bars {
+  cursor: pointer;
+
+}
+.bar {
+  cursor: pointer;
+
+}
+.bars div {
+  transition: 0.3s;
+}
+.bar div {
+  transition: 0.5s;
+}
+
+
+
+
+
